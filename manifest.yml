@@ -1,0 +1,7 @@
+---
+applications:
+- name: spring-mvc-helloworld-example
+  memory: 1G
+  path: target/spring-mvc-helloworld-example-0.0.1-SNAPSHOT.war
+  services:
+  - spring-mvc-helloworld-example-redis
